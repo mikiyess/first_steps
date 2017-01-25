@@ -20,3 +20,7 @@ Route::get('notes',function(){
   $notes=Note::all();
   return view('note', compact('notes'));
 });
+
+Route::post('notes', function () {
+    return 'Creating a note';
+});

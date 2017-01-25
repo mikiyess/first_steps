@@ -20,7 +20,18 @@ class NoteTest extends TestCase
     //3.- then "donde agregamos las comprobaciones"
         ->see('My first note')
         ->see('My second note');
-
+  }
+  public function test_create_note()
+  {
+    //Route::post('notes');
+    //when
+    $this->post('notes')
+    //then
+        ->see('reating a note');
 
   }
+
+
+
+
 }

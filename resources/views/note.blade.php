@@ -12,10 +12,10 @@
         </li>
         @endforeach
     </ul>
-    <!--<form method="POST">
+<form method="POST">
     <input type="hidden" name="_token" value="{{ csrf_token() }}"></input>
     <textarea></textarea>
     <button type="submit">Create note</button>
-</form>-->
+</form>
 </body>
 </html>
